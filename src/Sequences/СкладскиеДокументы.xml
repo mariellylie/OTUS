@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Sequence uuid="abc150f8-c5ff-40c6-9794-5dd6c8304e39">
+		<InternalInfo>
+			<xr:GeneratedType name="SequenceRecord.СкладскиеДокументы" category="Record">
+				<xr:TypeId>8ed7e139-3064-40fc-8d32-5610d03df68a</xr:TypeId>
+				<xr:ValueId>867dd90e-5d0a-45f9-84a8-76a41a249b8b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="SequenceManager.СкладскиеДокументы" category="Manager">
+				<xr:TypeId>17aac37b-e223-45c2-9f2a-0e01e05f78cb</xr:TypeId>
+				<xr:ValueId>a061f9df-ccd9-4cac-86a8-a7cc0efa47b6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="SequenceRecordSet.СкладскиеДокументы" category="RecordSet">
+				<xr:TypeId>fba55cb6-e017-41c6-8803-e787a7d6324d</xr:TypeId>
+				<xr:ValueId>c7ab499e-c7ea-42a8-99eb-6e3e2f09bdb6</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СкладскиеДокументы</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Складские документы</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<MoveBoundaryOnPosting>Move</MoveBoundaryOnPosting>
+			<Documents>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ПоступлениеТоваровУслуг</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.РеализацияТоваровУслуг</xr:Item>
+			</Documents>
+			<RegisterRecords>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.Товары</xr:Item>
+			</RegisterRecords>
+			<DataLockControlMode>Managed</DataLockControlMode>
+		</Properties>
+		<ChildObjects/>
+	</Sequence>
+</MetaDataObject>

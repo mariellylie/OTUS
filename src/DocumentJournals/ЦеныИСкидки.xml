@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<DocumentJournal uuid="49f8a3c7-3e0b-4d79-bfd4-819db5f06bb7">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentJournalSelection.ЦеныИСкидки" category="Selection">
+				<xr:TypeId>7420c8b0-5f5a-4193-89de-c04d2d9ebe57</xr:TypeId>
+				<xr:ValueId>76631ba0-9e63-43af-8d56-7b0b1fca3a99</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentJournalList.ЦеныИСкидки" category="List">
+				<xr:TypeId>7de1d190-240d-4a68-b78b-cede790be9a8</xr:TypeId>
+				<xr:ValueId>2bf78d06-009e-418c-a545-fdf6c681ee25</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentJournalManager.ЦеныИСкидки" category="Manager">
+				<xr:TypeId>7257eb30-d159-4c1f-a8ca-3e69483c7963</xr:TypeId>
+				<xr:ValueId>acee67de-daa5-45e3-8ed6-9fe233a740c9</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ЦеныИСкидки</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Цены и скидки</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<DefaultForm/>
+			<AuxiliaryForm/>
+			<UseStandardCommands>true</UseStandardCommands>
+			<RegisteredDocuments>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.УстановкаЦен</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.УстановкаСкидок</xr:Item>
+			</RegisteredDocuments>
+			<IncludeHelpInContents>false</IncludeHelpInContents>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+		</Properties>
+		<ChildObjects/>
+	</DocumentJournal>
+</MetaDataObject>

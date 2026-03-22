@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ChartOfAccountsPredefinedItems" version="2.20">
+	<Item id="3b482355-7b80-4cfb-a6c3-e28dcb7e2cb7">
+		<Name>Товары</Name>
+		<Code>41</Code>
+		<Description>Товары</Description>
+		<AccountType>Active</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order>41</Order>
+		<AccountingFlags/>
+		<ExtDimensionTypes>
+			<ExtDimensionType name="ChartOfCharacteristicTypes.ВидыСубконто.Номенклатура">
+				<Turnover>false</Turnover>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.УправленческийПланСчетов.ExtDimensionAccountingFlag.Суммовой">true</Flag>
+				</AccountingFlags>
+			</ExtDimensionType>
+		</ExtDimensionTypes>
+	</Item>
+	<Item id="e38341d5-d14a-47b8-aa75-146c569eff03">
+		<Name>Деньги</Name>
+		<Code>50</Code>
+		<Description>Денежные средства</Description>
+		<AccountType>Passive</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order>50</Order>
+		<AccountingFlags/>
+		<ExtDimensionTypes/>
+	</Item>
+	<Item id="fd3d7853-9d98-4455-b4b6-04d47035e94d">
+		<Name>Поставщики</Name>
+		<Code>60</Code>
+		<Description>Расчёты с поставщиками</Description>
+		<AccountType>ActivePassive</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order>60</Order>
+		<AccountingFlags/>
+		<ExtDimensionTypes>
+			<ExtDimensionType name="ChartOfCharacteristicTypes.ВидыСубконто.Контрагенты">
+				<Turnover>false</Turnover>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.УправленческийПланСчетов.ExtDimensionAccountingFlag.Суммовой">true</Flag>
+				</AccountingFlags>
+			</ExtDimensionType>
+		</ExtDimensionTypes>
+	</Item>
+	<Item id="915662cd-41a9-48f3-8ab2-8c86c636b46a">
+		<Name>Покупатели</Name>
+		<Code>62</Code>
+		<Description>Расчёты с покупателями</Description>
+		<AccountType>ActivePassive</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order>62</Order>
+		<AccountingFlags/>
+		<ExtDimensionTypes>
+			<ExtDimensionType name="ChartOfCharacteristicTypes.ВидыСубконто.Контрагенты">
+				<Turnover>false</Turnover>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.УправленческийПланСчетов.ExtDimensionAccountingFlag.Суммовой">true</Flag>
+				</AccountingFlags>
+			</ExtDimensionType>
+		</ExtDimensionTypes>
+	</Item>
+	<Item id="4227427b-9738-479f-9775-d48584479e63">
+		<Name>Сотрудники</Name>
+		<Code>70</Code>
+		<Description>Расчёты с сотрудниками</Description>
+		<AccountType>Passive</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order>70</Order>
+		<AccountingFlags/>
+		<ExtDimensionTypes>
+			<ExtDimensionType name="ChartOfCharacteristicTypes.ВидыСубконто.Сотрудники">
+				<Turnover>false</Turnover>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.УправленческийПланСчетов.ExtDimensionAccountingFlag.Суммовой">false</Flag>
+				</AccountingFlags>
+			</ExtDimensionType>
+		</ExtDimensionTypes>
+	</Item>
+	<Item id="9e9e32fa-7be0-4af2-a18b-6db67008071e">
+		<Name>Продажи</Name>
+		<Code>90</Code>
+		<Description>Продажи</Description>
+		<AccountType>ActivePassive</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order>90</Order>
+		<AccountingFlags/>
+		<ExtDimensionTypes/>
+		<ChildItems>
+			<Item id="931b05ee-ccca-4d9b-a4f7-a1c0b11401f7">
+				<Name>Выручка</Name>
+				<Code>90.1</Code>
+				<Description>Выручка</Description>
+				<AccountType>Passive</AccountType>
+				<OffBalance>false</OffBalance>
+				<Order>90.1</Order>
+				<AccountingFlags/>
+				<ExtDimensionTypes/>
+			</Item>
+			<Item id="aaef97e4-1e55-4c3c-812e-66c3df65a2ba">
+				<Name>Расходы</Name>
+				<Code>90.2</Code>
+				<Description>Расходы</Description>
+				<AccountType>Active</AccountType>
+				<OffBalance>false</OffBalance>
+				<Order>90.2</Order>
+				<AccountingFlags/>
+				<ExtDimensionTypes/>
+			</Item>
+		</ChildItems>
+	</Item>
+</PredefinedData>
